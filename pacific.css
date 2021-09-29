@@ -9,34 +9,55 @@
 */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
-	width: 80%;
-	margin:10px auto 0px auto;
-	border: 0px;
-	padding-bottom: 0px;
+	
 }
 
 #wrapper{
 	min-width: 600px;
+	width: 80%;
+	margin:10px auto 0px auto;
+	border: 0px;
+	padding-bottom: 0px;	
 }
+
+
 
 #content{
 	float:right;
 	background: white;
+	padding-left: 50px;
+    padding-right:25px;
+	width: 60%;
+	margin-left: 0px;
+}
+
+#content p{
+	display: inline;
 	
 }
+
+#content ul{
+	list-style-image: url('marker.gif');
+	
+}
+
+
 body {
 	background-color: #00569f;
 	background-image: url(ptrbackground.jpg);
+	background-repeat: repeat-x;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     background-color: rgb(108, 182, 228);
 	margin-top: 0px;
+	margin-right: 0px;
 	margin-bottom: 10%;
 	margin-left: 10%;
 	width: 190px;
 	height: 500px;
+	float: left;
 	
 
 }
@@ -73,7 +94,23 @@ h1 {
 
 h2 {
 	color: #3399CC;
+	font-size: 2em;
 }
+
+img{
+	height: 400px;
+	width: 450px;
+	float: left;
+	padding-right: 50px;
+}
+
+.resort{
+	font-size: 1.5em;
+	color:rgb(88, 128, 187);
+	font-weight: bold;
+
+}
+
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
@@ -86,5 +123,6 @@ dt {
 }
 footer {
 	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 190px;
 }
 
