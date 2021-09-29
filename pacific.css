@@ -5,13 +5,13 @@
     Mustapha Ayad, UMass Lowell Computer Science, mustapha_ayad@student.uml.edu
     Copyright (c) 2021 by Mustapha. All rights reserved. May be freely copied or
     excerpted for educational purposes with credit to the author.
-    updated by MA on September 16, 2021 at 1:38 PM 
+    updated by MA on September 27, 2021 at 6:52 PM 
 */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: ;
+	background-color: white;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,6 +28,7 @@ nav a:hover {
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
+	background-image: url(/images/sunset.jpg);
 }
 h2 {
 	color: #3399CC;
