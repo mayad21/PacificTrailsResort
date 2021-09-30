@@ -15,30 +15,35 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 #wrapper{
 	min-width: 600px;
 	width: 80%;
-	margin:10px auto 0px auto;
+	margin:10px auto 50px auto;
 	border: 0px;
 	padding-bottom: 0px;	
+	background-color: rgb(108, 182, 228);
 }
 
 
 
 #content{
-	float:right;
+	/* float:right; */
 	background: white;
-	padding-left: 50px;
-    padding-right:25px;
-	width: 60%;
-	margin-left: 0px;
+	padding: 1px 20px 20px 30px;
+	/* width: 60%; float means it moves around, 60% makes the page smaller than header*/
+	margin-left: 185px;
+	
 }
 
 #content p{
 	display: inline;
+
 	
 }
 
 #content ul{
 	list-style-image: url('marker.gif');
-	
+}
+
+#content ul li{
+	list-style-position: inside;
 }
 
 
@@ -50,13 +55,14 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-    background-color: rgb(108, 182, 228);
-	margin-top: 0px;
+    
+	/* margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 10%;
-	margin-left: 10%;
-	width: 190px;
-	height: 500px;
+	margin-left: 10%; */
+	padding: 20px 5px 5px 0px;
+	width: 160px;
+	/* height: 500px; */
 	float: left;
 	
 
@@ -66,7 +72,7 @@ nav ul {
 	font-size: 1.2em;
 	font-weight: bold;
 	list-style-type: none;
-	margin-top: 0px;
+	margin: 0px;
 	padding-top: 10px;
 	padding-left: 20px;
 }
@@ -93,19 +99,18 @@ h1 {
 }
 
 h2 {
-	color: #3399CC;
-	font-size: 2em;
+	color: #3399CC;	
 }
 
 img{
-	height: 400px;
-	width: 450px;
+	/* height: 400px;
+	width: 450px; */
+	max-width: 100%;
 	float: left;
 	padding-right: 50px;
 }
 
 .resort{
-	font-size: 1.5em;
 	color:rgb(88, 128, 187);
 	font-weight: bold;
 
@@ -123,6 +128,17 @@ dt {
 }
 footer {
 	font-family: Georgia, "Times New Roman", serif;
-	margin-left: 190px;
+	font-style: italic;
+	font-size: small;
+	margin-left: 185px;
+	background-color: white;
+	padding: 30px;
+}
+
+footer a{
+	color: blue;
+	text-decoration: underline;
+	padding: 0px;
+	
 }
 
