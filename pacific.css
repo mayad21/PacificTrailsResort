@@ -1,52 +1,33 @@
-/*
-    File: pacific.css
-    GUI Assignment: Style a Site with External CSS
-    This website displays the homepage for Pacific Trails Resort and features a picture, decsription, and navigation menu. 
-    Mustapha Ayad, UMass Lowell Computer Science, mustapha_ayad@student.uml.edu
-    Copyright (c) 2021 by Mustapha. All rights reserved. May be freely copied or
-    excerpted for educational purposes with credit to the author.
-    updated by MA on September 27, 2021 at 6:52 PM 
-*/
+/* File: pacific.css GUI Assignment: Style a Site with External CSS This website displays the homepage for Pacific Trails Resort and features a picture, decsription, and navigation menu. Mustapha Ayad, UMass Lowell Computer Science, mustapha_ayad@student.uml.edu Copyright (c) 2021 by Mustapha. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author. updated by MA on September 27, 2021 at 6:52 PM */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
-	
 }
-
 #wrapper{
 	min-width: 600px;
 	width: 80%;
 	margin:10px auto 50px auto;
 	border: 0px;
-	padding-bottom: 0px;	
+	padding-bottom: 0px;
 	background-color: rgb(108, 182, 228);
 }
-
-
-
 #content{
-	/* float:right; */
+   /* float:right;
+	*/
 	background: white;
 	padding: 1px 20px 20px 30px;
-	/* width: 60%; float means it moves around, 60% makes the page smaller than header*/
+   /* width: 60%;
+	float means it moves around, 60% makes the page smaller than header*/
 	margin-left: 185px;
-	
 }
-
 #content p{
 	display: inline;
-
-	
 }
-
 #content ul{
 	list-style-image: url('marker.gif');
 }
-
 #content ul li{
 	list-style-position: inside;
 }
-
-
 body {
 	background-color: #00569f;
 	background-image: url(ptrbackground.jpg);
@@ -55,19 +36,17 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-    
-	/* margin-top: 0px;
+   /* margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 10%;
-	margin-left: 10%; */
+	margin-left: 10%;
+	*/
 	padding: 20px 5px 5px 0px;
 	width: 160px;
-	/* height: 500px; */
+   /* height: 500px;
+	*/
 	float: left;
-	
-
 }
-
 nav ul {
 	font-size: 1.2em;
 	font-weight: bold;
@@ -77,11 +56,10 @@ nav ul {
 	padding-left: 20px;
 }
 a{
-    color: rgb(0,0, 60);
-    text-decoration: none;
-    padding: 6px 18px 5px 8px;
+	color: rgb(0,0, 60);
+	text-decoration: none;
+	padding: 6px 18px 5px 8px;
 }
-
 nav a:visited {
 	color: #344873;
 }
@@ -97,27 +75,22 @@ h1 {
 	background-position: right;
 	background-color: rgb(0,0, 60);
 }
-
 h2 {
-	color: #3399CC;	
+	color: #3399CC;
 }
-
 img{
-	/* height: 400px;
-	width: 450px; */
+   /* height: 400px;
+	width: 450px;
+	*/
 	max-width: 100%;
 	float: left;
 	padding-right: 50px;
 }
-
 .resort{
 	color:rgb(88, 128, 187);
 	font-weight: bold;
-
 }
-
-h1,
-h2 {
+h1, h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
 #contact {
@@ -134,11 +107,10 @@ footer {
 	background-color: white;
 	padding: 30px;
 }
-
 footer a{
 	color: blue;
 	text-decoration: underline;
 	padding: 0px;
-	
 }
+
 
